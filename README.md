@@ -82,8 +82,14 @@ yes
 ```
 
 <li><p>Usage
-  To view the web server, navigate to the public IP address of the GCE instance in your web browser.
+To verify and list all instances and network for the project from console.
+
 </p></li>
+
+```
+  gcloud compute networks list \
+  gcloud compute instances list
+```
 
 <li><p>Cleanup
   To destroy the infrastructure, run the following command:
